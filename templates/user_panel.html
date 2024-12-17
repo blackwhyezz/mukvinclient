@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../static/css/user_panel.css">
+    <title>hailait + nylhakus = lubof</title>
+</head>
+<body>
+
+<!-- ПОТОЛОК САЙТА -->
+<header>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container-fluid px-5 mt-2">
+                <a class="fw-bolder text-white mb-2 navbar-brand px-5" href="/"
+                   style="font-size: 25px; display: flex; align-items: center;">
+                    <img src="../static/images/icon.svg" alt="hailait + nylhakus = lubof logo"
+                         style="width: 32px; height: 32px; margin-right: 10px;">
+                    hailait + nylhakus = lubof
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-white">
+                        <li class="nav-item" style="margin-right: 12px; font-size: 20px;">
+                            <a class="icon-link nav-link nav-item text-white" href="register.html">
+                                <i class="fa fa-shopping-cart text-center mr-1"></i>Поддержка</a>
+                        </li>
+                        <li class="nav-item" style="margin-right: 12px; font-size: 20px;">
+                            <a class="icon-link nav-link nav-item text-white" href="https://discord.gg/Nby2ZQdMeH">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16"
+                                     viewBox="0 0 512 512"></svg>
+                                Выйти</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<!-- MAIN -->
+<div class="container">
+    <p class="lead fw-normal mb-1 gex text-white"
+       style="font-size: 32px; font-family: 'Gilroy', sans-serif; text-align:center; line-height:50px;">
+        Личный кабинет
+    </p>
+    <!-- OTHER INFO -->
+    <div class="line">
+        <p class="lead fw-normal mb-1 gex text-white"
+           style="font-size: 20px; font-family: 'Gilroy', sans-serif; text-align:left; line-height:50px;">
+            ID:
+        </p>
+        <p class="lead fw-normal mb-1 gex text-white"
+           style="font-size: 20px; font-family: 'Gilroy', sans-serif; text-align:center; line-height:50px;">
+            {{ id }}
+        </p>
+    </div>
+    <div class="line">
+        <p class="lead fw-normal mb-1 gex text-white"
+           style="font-size: 20px; font-family: 'Gilroy', sans-serif; text-align:left; line-height:50px;">
+            Пользователь:
+        </p>
+        <p class="lead fw-normal mb-1 gex text-white"
+           style="font-size: 20px; font-family: 'Gilroy', sans-serif; text-align:center; line-height:50px;">
+            {{ user }}
+        </p>
+    </div>
+    <div class="line">
+        <p class="lead fw-normal mb-1 gex text-white"
+           style="font-size: 20px; font-family: 'Gilroy', sans-serif; text-align:left; line-height:50px;">
+            Электронная почта:
+        </p>
+        <p class="lead fw-normal mb-1 gex text-white"
+           style="font-size: 20px; font-family: 'Gilroy', sans-serif; text-align:center; line-height:50px;">
+            {{ mail }}
+        </p>
+    </div>
+    <div class="line">
+        <p class="lead fw-normal mb-1 gex text-white"
+           style="font-size: 20px; font-family: 'Gilroy', sans-serif; text-align:left; line-height:50px;">
+            Hardware ID:
+        </p>
+        <p class="lead fw-normal mb-1 gex text-white"
+           style="font-size: 20px; font-family: 'Gilroy', sans-serif; text-align:center; line-height:50px;">
+            {{ hwid }}
+        </p>
+    </div>
+    <div class="line">
+        <p class="lead fw-normal mb-1 gex text-white"
+           style="font-size: 20px; font-family: 'Gilroy', sans-serif; text-align:left; line-height:50px;">
+            Дата регистрации:
+        </p>
+        <p class="lead fw-normal mb-1 gex text-white"
+           style="font-size: 20px; font-family: 'Gilroy', sans-serif; text-align:center; line-height:50px;">
+            {{ prezik }}
+        </p>
+    </div>
+    <div class="line">
+        <p class="lead fw-normal mb-1 gex text-white"
+           style="font-size: 20px; font-family: 'Gilroy', sans-serif; text-align:left; line-height:50px;">
+            Срок подписки:
+        </p>
+        <p class="lead fw-normal mb-1 gex text-white"
+           style="font-size: 20px; font-family: 'Gilroy', sans-serif; text-align:center; line-height:50px;">
+            {{ licence }}
+        </p>
+    </div>
+    <div class="line">
+        <p class="lead fw-normal mb-1 gex text-white"
+           style="font-size: 20px; font-family: 'Gilroy', sans-serif; text-align:left; line-height:50px;">
+            Роль:
+        </p>
+        <p class="lead fw-normal mb-1 gex text-white"
+           style="font-size: 20px; font-family: 'Gilroy', sans-serif; text-align:center; line-height:50px;">
+            {{ rol }}
+        </p>
+    </div>
+    <div class="line2">
+        <button class="btn btn-primary">Скачать лаунчер</button>
+        <button class="btn btn-primary">Ввести ключ активации</button>
+        <button class="btn btn-primary">Изменить пароль</button>
+        <a class="btn btn-danger" href="{{ url_for('logout') }}">Выйти</a>
+    </div>
+
+</div>
+
+<!-- ПОДВАЛ -->
+<div style="justify-content: center; margin-top:140px; text-align:center; color: #555555;">
+    <p>&copy; 2024 hailait + nylhakus = lubof. All rights reserved.</p>
+</div>
+
+</body>
+</html>
