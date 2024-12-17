@@ -1,0 +1,132 @@
+
+body {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(21, 21, 21, 1) 100%), url("../images/image.png");
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+    height: auto;
+    background-color: #151515;
+    font-family: 'Gilroy', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy-Semibold.eot");
+    src: url("../fonts/Gilroy-Semibold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gilroy-Semibold.woff") format("woff"),
+    url("../fonts/Gilroy-Semibold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 36px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.container2 {
+    margin-top: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    margin: 0 auto; /* This will center the video horizontally */
+    height: 600px;
+    width: 1120px;
+    background-color: red;
+}
+
+.container3 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.box11 {
+    background-color: #1b1b1e;
+}
+
+.box22 {
+    background-color: #1b1b1e;
+}
+
+.box33 {
+    background-color: #1b1b1e;
+}
+
+.box44 {
+    background-color: #1b1b1e;
+}
+
+.boxe {
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+    line-height: 30px;
+    border: 2px solid #252525;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    font-family: 'Gilroy', sans-serif;
+}
+
+.box {
+    width: 270px;
+    height: 100px;
+    margin: 10px;
+    line-height: 90px;
+    border: 2px solid #252525;
+    color: white;
+    font-family: 'Gilroy', sans-serif;
+    border-radius: 20px;
+}
+
+.box p {
+    text-align: center;
+    margin-top: -100px;
+    font-size: 20px;
+    margin-left: 20%;
+    font-family: 'Gilroy', sans-serif;
+}
+
+.box .p1 {
+    text-align: center;
+    margin-top: -170px;
+    margin-left: 20%;
+    font-family: 'Gilroy', sans-serif;
+}
+
+.box1 {
+    background-color: #1b1b1e;
+}
+
+.box2 {
+    background-color: #1b1b1e;
+}
+
+.box3 {
+    background-color: #1b1b1e;
+}
+
+.box4 {
+    background-color: #1b1b1e;
+}

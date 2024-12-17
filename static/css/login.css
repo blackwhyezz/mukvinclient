@@ -1,0 +1,150 @@
+body {
+    background-size: 300% 300%;
+    background-image: linear-gradient(-45deg, #0e1414 20%, #1c2321 40%, #212c34 60%, #1c2321 80%, #0e1414 100%);
+    -webkit-animation: AnimateBG 20s ease infinite;
+    animation: AnimateBG 20s ease infinite;
+    background-color: #151515;
+    font-family: 'Gilroy', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@-webkit-keyframes AnimateBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes AnimateBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy-Semibold.eot");
+    src: url("../fonts/Gilroy-Semibold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gilroy-Semibold.woff") format("woff"),
+    url("../fonts/Gilroy-Semibold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes grow {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.form-container {
+    animation: fade-in 1s ease-in-out;
+}
+
+.form-container {
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.form-container input[type="text"]:focus,
+.form-container input[type="password"]:focus {
+    background-color: #444;
+    outline: none;
+}
+
+.form-container input[type="submit"] {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #ddd;
+}
+
+.tab-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab-label {
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.tab-input {
+    display: none;
+}
+
+.tab-input:checked + .tab-label {
+    background-color: white;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}

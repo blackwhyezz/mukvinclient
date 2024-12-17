@@ -1,0 +1,136 @@
+body {
+    background-size: 300% 300%;
+    background-image: linear-gradient(-45deg, #0e1414 20%, #1c2321 40%, #212c34 60%, #1c2321 80%, #0e1414 100%);
+    -webkit-animation: AnimateBG 20s ease infinite;
+    animation: AnimateBG 20s ease infinite;
+    height: auto;
+    background-color: #151515;
+    font-family: 'Gilroy', sans-serif;
+}
+
+@-webkit-keyframes AnimateBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes AnimateBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy-Semibold.eot");
+    src: url("../fonts/Gilroy-Semibold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gilroy-Semibold.woff") format("woff"),
+    url("../fonts/Gilroy-Semibold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container {
+     display: flex;
+  justify-content: center;
+  align-items: center;
+    margin-top: 150px;
+    height: 600px;
+    width: 850px;
+    position: relative;
+    display: flex;
+    border-radius: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.up {
+    height: 50px;
+    width: 850px;
+    display: block;
+    background-color: rgba(22, 22, 22, 1);
+}
+
+.up2 {
+    height: 500px;
+    width: 850px;
+    display: block;
+    background-color: rgba(22, 22, 22, 0.2);
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid #151515;
+    background-color: rgba(22, 22, 22, 1);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.line2 {
+    display: flex;
+    justify-content: center; /* Изменено с space-between на center */
+    align-items: center;
+    height: 50px;
+    border-radius: 20px;
+    #border: 1px solid #151515;
+    #background-color: rgba(22, 22, 22, 1);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+    margin-top: 0px; /* Add margin to separate from previous info lines */
+    margin-bottom: 4px; /* Смещение вниз на 2 пикселя */
+}
+
+.line2 button,
+.line2 a {
+    margin-top: 2px; /* Смещение вниз на 2 пикселя */
+    margin-left: 10px; /* Добавлен отступ между кнопками */
+}
+
+
+.icon {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin: 0px auto;
+    border-radius: 50%;
+    padding: 5px;
+    background-origin: content-box;
+}
+
+.info {
+    margin-left: 10px;
+}
+
+.line {
+    margin-bottom: 5px;
+}
